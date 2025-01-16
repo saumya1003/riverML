@@ -1,0 +1,13 @@
+{
+    "pipeline": [
+        {
+            "type": "readers.las",
+            "filename": "E290N1554_LAZ_PL1.laz"
+        },
+        {
+            "type": "writers.text",
+            "filename": "output1.csv",
+            "format": "csv"
+        }
+    ]
+}
